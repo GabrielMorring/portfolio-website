@@ -21,7 +21,7 @@ const About = () => {
             eligendi ipsa perferendis reiciendis!
           </p>
         </div>
-        <div className="  w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 scale-75 md:scale-100  md:hover:scale-105 ease-in duration-300">
+        <div className="  w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 scale-75 hover:scale-[.8] md:scale-100  md:hover:scale-105 ease-in duration-300">
           <img className="rounded-xl" src="../assets/about.jpg" alt="/" />
         </div>
       </div>
