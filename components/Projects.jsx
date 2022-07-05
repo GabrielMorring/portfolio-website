@@ -16,11 +16,6 @@ const Projects = () => {
         <h1 className="py-4">What {"I've"} Made</h1>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property"
-            backgroundImg={propertyImg}
-            projectUrl="/"
-          />
-          <ProjectItem
             title="Discord Clone"
             backgroundImg={discordImg}
             projectUrl="/"
