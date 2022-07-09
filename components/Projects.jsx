@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import propertyImg from "../public/assets/projects/property.jpg";
+import tictactoeImg from "../public/assets/projects/tictactoe.png";
 import discordImg from "../public/assets/projects/discord.png";
 
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="uppercase text-xl tracking-widest text-[#eb0f60]">
           Projects
@@ -18,11 +18,11 @@ const Projects = () => {
           <ProjectItem
             title="Discord Clone"
             backgroundImg={discordImg}
-            projectUrl="/"
+            projectUrl="/discord"
           />
           <ProjectItem
             title="TicTacToe online"
-            backgroundImg={propertyImg}
+            backgroundImg={tictactoeImg}
             projectUrl="/"
           />
         </div>
