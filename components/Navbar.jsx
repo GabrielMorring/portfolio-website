@@ -27,10 +27,14 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleShadow = () => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= window.innerHeight) {
         setShadow(true);
+        setNavBg("#ecf0f3");
+        setLinkColor("#1f2937");
       } else {
         setShadow(false);
+        setNavBg("transparent");
+        setLinkColor("#ecf0f3");
       }
     };
     window.addEventListener("scroll", handleShadow);
