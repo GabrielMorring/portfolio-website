@@ -8,6 +8,8 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 
+import Logo from "../public/assets/gm-logo.png";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -56,12 +58,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/assets/gm-logo.png"
-            alt="/"
-            width="125"
-            height="50"
-          />
+          <Image src={Logo} alt="/" width="125" height="50" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -109,12 +106,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/gm-logo.png"
-                alt="/"
-                width="87"
-                height="35"
-              />
+              <Image src={Logo} alt="/" width="87" height="35" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
