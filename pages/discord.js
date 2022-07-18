@@ -28,8 +28,8 @@ const discord = () => {
           <h2>Overview</h2>
           <p>
             I followed a tuorial to make a discord clone. It looks really nice,
-            and allowed you to chat with other people. The chatting doesn't work
-            anymore because the server is down.
+            and allowed you to chat with other people. The chatting {"doesn't"}{" "}
+            work anymore because the server is down.
           </p>
           <Link href={"https://discord-clone-46e57.web.app/"}>
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
