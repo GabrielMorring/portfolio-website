@@ -9,7 +9,7 @@ const discord = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
@@ -24,16 +24,19 @@ const discord = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <p>Project</p>
+          <p className="text-[#eb0f60]">Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, enim
-            dolorum possimus quos, exercitationem nisi ipsam doloremque
-            accusantium sit consequuntur perspiciatis ab, ea ut iste beatae cum
-            totam recusandae ipsum!
+            I followed a tuorial to make a discord clone. It looks really nice,
+            and allowed you to chat with other people. The chatting doesn't work
+            anymore because the server is down.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href={"https://discord-clone-46e57.web.app/"}>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href={"https://github.com/GabrielMorring/discord_clone"}>
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 ">
           <div className="p-2">

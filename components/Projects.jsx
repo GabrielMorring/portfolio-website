@@ -23,7 +23,7 @@ const Projects = () => {
           <ProjectItem
             title="TicTacToe online"
             backgroundImg={tictactoeImg}
-            projectUrl="/"
+            projectUrl="https://github.com/GabrielMorring/tictactoe"
           />
         </div>
       </div>
